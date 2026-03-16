@@ -2,123 +2,76 @@
 body{
 font-family:Inter, sans-serif;
 margin:0;
-background:#fdfaf6;
-color:#2a1e27;
-line-height:1.6;
+background:#fafafa;
+color:#222;
 }
-
-/* navigation */
 
 .nav{
 display:flex;
 justify-content:space-between;
-padding:20px 10%;
+padding:20px 40px;
 background:white;
 border-bottom:1px solid #eee;
 }
 
 .nav-links{
 display:flex;
-gap:25px;
+gap:20px;
 list-style:none;
 }
 
-/* sections */
-
-section{
-padding:90px 10%;
-}
-
-/* hero */
-
 .hero{
 display:flex;
+justify-content:space-between;
 align-items:center;
-}
-
-.hero-text{
-flex:1;
+padding:80px 40px;
 }
 
 .hero-logo img{
-width:260px;
+width:160px;
 }
 
-/* featured */
-
-.featured{
-background:#f5f0e8;
+.featured-work{
+padding:60px 40px;
 }
 
 .featured-grid{
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:40px;
-align-items:center;
+margin-top:30px;
 }
 
-/* project sections */
-
-.projects{
-background:#faf7f2;
-}
-
-/* grids */
-
-.grid-3{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:30px;
-}
-
-.grid-4{
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:30px;
-}
-
-/* cards */
-
-.card{
-background:white;
-padding:25px;
+.featured-card img{
+width:100%;
 border-radius:6px;
-box-shadow:0 5px 20px rgba(0,0,0,0.05);
-transition:all 0.25s ease;
 }
 
-.card:hover{
-transform:translateY(-6px);
-box-shadow:0 15px 35px rgba(0,0,0,0.08);
-}
-
-/* buttons */
-
-.btn{
-display:inline-block;
-padding:12px 26px;
-background:#4a1942;
-color:white;
-text-decoration:none;
-border-radius:4px;
-font-size:0.9rem;
+.project-label{
+font-size:12px;
+letter-spacing:1px;
+color:#666;
 margin-top:10px;
-transition:all 0.2s ease;
 }
 
-.btn:hover{
-background:#2f0f2a;
-transform:translateY(-2px);
+.other-projects{
+padding:60px 40px;
 }
 
-/* footer */
+.grid-2{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+}
+
+.card img{
+width:100%;
+border-radius:6px;
+}
 
 footer{
-text-align:center;
 padding:40px;
-background:#f2eee8;
-}
-
-.footer-links a{
-margin:0 10px;
+text-align:center;
+border-top:1px solid #eee;
+margin-top:60px;
 }
